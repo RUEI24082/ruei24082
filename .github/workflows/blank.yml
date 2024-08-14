@@ -31,7 +31,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.TOKEN }}
         run: |
-          curl -X PUT \
+          curl -i -X PUT \
             -H "Authorization: token $GH_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/RUEI24082/RUEI24082/collaborators/ruei24071
+            https://api.github.com/repos/RUEI24082/RUEI24082/collaborators/eikchen0713
